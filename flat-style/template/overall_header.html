@@ -4,6 +4,16 @@
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="apple-itunes-app" content="app-id=1062986407">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+<link rel="manifest" href="/favicons/site.webmanifest">
+<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/favicons/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
 {META}
 <title><!-- IF UNREAD_NOTIFICATIONS_COUNT -->({UNREAD_NOTIFICATIONS_COUNT}) <!-- ENDIF --><!-- IF not S_VIEWTOPIC and not S_VIEWFORUM -->{SITENAME} - <!-- ENDIF --><!-- IF S_IN_MCP -->{L_MCP} - <!-- ELSEIF S_IN_UCP -->{L_UCP} - <!-- ENDIF -->{PAGE_TITLE}<!-- IF S_VIEWTOPIC or S_VIEWFORUM --> - {SITENAME}<!-- ENDIF --></title>
 
@@ -26,7 +36,7 @@
 	phpBB style name: Flat Style
 	Based on style:   prosilver (this is the default phpBB3 style)
 	Original author:  Tom Beddard ( http://www.subBlue.com/ )
-	Modified by:      Ian Bradley ( http://phpbbstyles.oo.gd/ )
+	Modified by:      Ian Bradley
 -->
 
 <!-- IF S_ALLOW_CDN -->
@@ -83,14 +93,16 @@
 		<!-- EVENT overall_header_headerbar_before -->
 			<div class="inner">
 
-			<div id="site-description">
-				<a id="logo" class="logo" href="<!-- IF U_SITE_HOME -->{U_SITE_HOME}<!-- ELSE -->{U_INDEX}<!-- ENDIF -->" title="<!-- IF U_SITE_HOME -->{L_SITE_HOME}<!-- ELSE -->{L_INDEX}<!-- ENDIF -->"><span class="site_logo"></span></a>
-				<div  class="site-description">
-					<h1>{SITENAME}</h1>
-					<p>{SITE_DESCRIPTION}</p>
-					<p class="skiplink"><a href="#start_here">{L_SKIP}</a></p>
+				<div id="site-description">
+					<a id="logo" class="logo" href="https://mrmc.tv" title="MrMC"><span class="site_logo"></span></a>
+					<div class="storebar">
+						<a id="google_play" class="icon" href=https://play.google.com/store/apps/details?id=tv.mrmc.mrmc><span class="store_badge google_store"></span></a>
+						<a id="appple_ios" class="icon" href=https://itunes.apple.com/app/mrmc-touch/id1062986407><span class="store_badge apple_store ios_store"></span></a>
+						<a id="appple_tvos" class="icon" href=https://itunes.apple.com/us/app/mrmc/id1059536415><span class="store_badge apple_store tvos_store"></span></a>
+						<a id="amazon" class="icon" href=http://www.amazon.com/gp/product/B01ENT3I1Q/ref=mas_pm_mrmc><span class="store_badge amazon_store"></span></a>
+					</div>
 				</div>
-			</div>
+
 
 			</div>
 			<!-- EVENT overall_header_headerbar_after -->

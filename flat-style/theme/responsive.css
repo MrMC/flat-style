@@ -144,7 +144,7 @@
 
 	/* Common block wrappers
 	----------------------------------------*/
-	.headerbar, .navbar, .forabg, .forumbg, .post, .panel {
+	.headerbar, .navbar, .forabg, .forumbg, .post, .panel, .storebar {
 		border-radius: 0;
 		margin-left: -5px;
 		margin-right: -5px;
@@ -167,6 +167,10 @@
 		display: none;
 		float: none;
 		padding: 10px;
+	}
+
+	.store_badge {
+		display: none;
 	}
 
 	.site-description h1, .site-description p {

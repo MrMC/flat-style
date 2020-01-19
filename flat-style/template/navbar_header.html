@@ -87,9 +87,11 @@
 
 		<!-- EVENT overall_header_navigation_prepend -->
 		<li <!-- IF not S_USER_LOGGED_IN -->data-skip-responsive="true"<!-- ELSE -->data-last-responsive="true"<!-- ENDIF -->>
+		<!-- IF S_USER_LOGGED_IN -->
 			<a href="{U_FAQ}" rel="help" title="{L_FAQ_EXPLAIN}" role="menuitem">
 				<i class="icon fa-question-circle fa-fw" aria-hidden="true"></i><span>{L_FAQ}</span>
 			</a>
+		<!-- ENDIF -->	
 		</li>
 		<!-- EVENT overall_header_navigation_append -->
 		<!-- IF U_ACP -->
@@ -106,6 +108,16 @@
 				</a>
 			</li>
 		<!-- ENDIF -->
+			<li data-last-responsive="true">
+				<a href="https://mrmc.tv" title="MrMC.tv" role="menuitem">
+					<i class="icon fa-globe fa-fw" aria-hidden="true"></i><span>MrMC.tv</span>
+				</a>
+			</li>
+			<li data-last-responsive="true">
+				<a href="https://wiki.mrmc.tv" title="Wiki" role="menuitem">
+					<i class="icon fa-wikipedia-w fa-fw" aria-hidden="true"></i><span> Wiki</span>
+				</a>
+			</li>
 
 	<!-- IF S_REGISTERED_USER -->
 		<!-- EVENT navbar_header_user_profile_prepend -->

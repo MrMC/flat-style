@@ -86,11 +86,11 @@ a:hover { color: #d60; }
 }
 
 .headerbar {
-	color: #FFFFFF;
+	color: #eee;
 }
 
 .headerbar {
-	background-color: #eee;
+	background-color: #eeee;
 }
 
 .forabg, .forumbg {
@@ -140,10 +140,6 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 
 .fieldsbg {
 	background-color: #E7E8EA;
-}
-
-.site_logo {
-	background-image: url("./images/site_logo.png");
 }
 
 /* Table styles
@@ -636,11 +632,6 @@ Colours and backgrounds for buttons.css
 .search-box .inputbox:hover,
 .search-box .inputbox:focus {
 	border-color: #C7C3BF;
-}
-
-.search-results li:hover,
-.search-results li.active {
-	background-color: #ffffff;
 }
 
 /* Icon images

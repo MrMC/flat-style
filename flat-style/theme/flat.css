@@ -144,8 +144,26 @@ p.post-notice a:hover {
 }
 
 /* Collapsible categories */
+a.collapse-hide, a.collapse-show {
+	-moz-border-radius:0 !important;
+	-webkit-border-radius:0 !important;
+	border-radius:0 !important;
+	top:-3px;
+	left:-5px;
+}
+
 a.collapse-btn {
-	margin: -22px 5px 0;
+	border-color:#fff !important;
+	background-color:#fff !important;
+}
+
+a.collapse-btn:hover {
+	border-color:#fec !important;
+	background-color:#fec !important
+}
+
+a.collapse-btn::after, a.collapse-btn::before {
+	border-color:#333 !important;
 }
 
 /* Other extensions compatibility... */
